@@ -1,18 +1,49 @@
-body{
-    background-color: rgb(167, 191, 192);
+body {
+    background-color: #E7E9EB;
 }
-h1,h2,h3{
+div.containor{
+    width: 90%;
+    margin: 0px auto;
+    background-color: rgb(152, 177, 194);
+    padding: 5px 10px;
+    border: 2px solid rgb(119, 119, 100);
+    border-radius: 20px;
+}
+h1,
+h2
+ {
     text-align: center;
+    margin: 5px; 
 }
-div{
+
+div h2 {
     /* align-items: center; */
     text-align: center;
+    margin: 10px auto;
 
 }
-div img{
+
+div img {
     width: 250px;
     height: 200px;
+    display: block;
+    margin: 0px auto;
+
 }
-p{
-    margin:0px 20px 20px 20px ;
+div.image{
+    margin: 0px auto;
+}
+
+p {
+    margin: 0px 20px 20px 20px;
+}
+
+.description,
+.ingredients,
+.guide {
+
+    border: 3px solid #343443;
+    margin: 10px 5px;
+    background-color: #b9b9b9;
+    border-radius: 30px;
 }
